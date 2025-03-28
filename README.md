@@ -83,11 +83,73 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </ol>
 </p>
 <br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+</p>
+<h2>Step 3: Observe SSH Traffic</h2>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  <ol>
+    <li>Back in Wireshark, filter for SSH traffic only</li>
+    <li>From your Windows 10 VM, "SSH into" your Ubuntu Virtual Machine (via its private IP address)</li>
+      <ul>
+        <li>Type commands (username, password, etc.) into the Linux SSH connection and observe SSH traffic spam in Wireshark/li>
+        <li>Exit the SSH connecton by typing "exit" and pressing "Enter"</li>
+      </ul>
+  </ol>
+</p>
+<br />
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+</p>
+<h2>Step 4: Observe DHCP Traffic</h2>
+<p>
+  <ol>
+    <li>Back in Wireshark, filter for DHCP traffic only</li>
+    <li>From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)</li>
+      <ul>
+        <li>Observe the DHCP traffic appearing in Wireshark</li>
+      </ul>
+  </ol>
+</p>  
+<br />
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+</p>
+<h2>Step 5: Observe DNS Traffic</h2>
+<p>
+  <ol>
+    <li>Back in Wireshark, filter for DNS traffic only</li>
+    <li>From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com's IP addresses are</li>
+      <ul>
+        <li>Observe the DNS traffic being shown in Wireshark</li>
+      </ul>
+  </ol>
+</p>  
+<br />
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+</p>
+<h2>Step 6: Observe RDP Traffic</h2>
+<p>
+  <ol>
+    <li>Back in Wireshark, filter for RDP traffic only (tcp.port==3389)</li>
+    <li>Observe the immediate non-stop spam of traffic. </li>
+  </ol>
+</p>  
+<br />
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<h2>Step 7: Lab Cleanup (A MUST!)</h2>
+<p>
+  <ol>
+    <li>Close your Remote Desktop connection</li>
+    <li>Delete the Resource Group(s) created at the beginning of this lab</li>
+    <li>Verify Resource Group Deletion</li>
+  </ol>
 </p>
 <br /># az-network-protocols
