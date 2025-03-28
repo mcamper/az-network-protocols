@@ -58,7 +58,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="319" alt="remote" src="https://github.com/user-attachments/assets/9c5eee0d-1157-4acc-83af-331eba9b5f62" /></p>
+
+<br />
+<img width="721" alt="icmp" src="https://github.com/user-attachments/assets/2589b441-96ee-4636-b85c-1f6250198701" />
+
+<br />
+<img width="726" alt="pingprivIP_pinggoogle" src="https://github.com/user-attachments/assets/7584dd0e-7896-42c2-8caa-b42889f02136" />
+<img width="934" alt="Screenshot 2025-03-27 051000" src="https://github.com/user-attachments/assets/cce3c915-7c0a-4bc3-80d8-bb85105477c1" />
+<img width="649" alt="Screenshot 2025-03-27 051733" src="https://github.com/user-attachments/assets/5dbc2fe1-f7b1-45ef-b73b-68af633b5a96" />
+<img width="1026" alt="Screenshot 2025-03-27 052450" src="https://github.com/user-attachments/assets/8b987871-917c-4671-9640-d49b3c725a81" />
+<img width="677" alt="Screenshot 2025-03-27 052623" src="https://github.com/user-attachments/assets/06540a92-1f7c-440f-b2e9-16d52d7c5a9f" />
+
 </p>
 <p>
 <h2>Step 2: Observe ICMP Traffic</h2>
@@ -84,7 +95,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="224" alt="Screenshot 2025-03-27 053108" src="https://github.com/user-attachments/assets/2af8079d-dfe7-491a-b0c9-73a7537b83e8" />
+<img width="338" alt="Screenshot 2025-03-27 053249" src="https://github.com/user-attachments/assets/912aaef2-5bfe-4c6d-87c7-51f7fc3e3929" />
+<img width="802" alt="Screenshot 2025-03-27 053317" src="https://github.com/user-attachments/assets/a1eccd23-e404-4378-ab7b-857d00771a58" />
+<img width="810" alt="Screenshot 2025-03-27 053644" src="https://github.com/user-attachments/assets/f8ebda7c-3be9-4d80-a19e-9acd5027b967" />
+<img width="334" alt="Screenshot 2025-03-27 054230" src="https://github.com/user-attachments/assets/30e6a3c6-c87c-42bb-9c9e-ca2a03407f65" />
 </p>
 </p>
 <h2>Step 3: Observe SSH Traffic</h2>
@@ -115,7 +130,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>  
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="169" alt="Screenshot 2025-03-27 054955" src="https://github.com/user-attachments/assets/abe34408-627b-4d9f-8193-a4a8fb9032be" />
+<img width="667" alt="Screenshot 2025-03-27 055025" src="https://github.com/user-attachments/assets/a8bbd644-6023-4034-b2f8-259111a55c72" />
+
+
 </p>
 </p>
 <h2>Step 5: Observe DNS Traffic</h2>
@@ -130,7 +148,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>  
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="484" alt="Screenshot 2025-03-27 055356" src="https://github.com/user-attachments/assets/11971178-b129-4c28-a0d2-09418e026010" />
+
 </p>
 </p>
 <h2>Step 6: Observe RDP Traffic</h2>
