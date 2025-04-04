@@ -40,13 +40,23 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
   <ol>
   <li>Create a Resource Group (RS-NSG)</li>
+    <img width="461" alt="image" src="https://github.com/user-attachments/assets/3fc126e1-6ca0-4db8-b7ac-2e675101b9b0" />
+
   <li>Create a Windows 10 Virtual Machine (VM)</li>
     <ul>
   <li>While creating the VM (Windows-VM), select the previously created Resource Group (RS-NSG)</li>
+    <img width="494" alt="image" src="https://github.com/user-attachments/assets/8d69c74c-be70-4235-83b4-b02ce794eebb" />
+
   <li>For Image, choose Windows 10. For Size, choose at least 2vcpus or DS2sv</li>
+  <img width="520" alt="Screenshot 2025-04-04 070032" src="https://github.com/user-attachments/assets/d6a1c2c9-5b2b-4e99-8263-52eadeb0df16" />
+
   <li>Enter a username and password (username: labuser  password: Cyberlab123!)</li>
+  <img width="518" alt="Screenshot 2025-04-04 070314" src="https://github.com/user-attachments/assets/15eb8459-e5fc-4321-9f4a-6bcdc01eb775" />
+
   <li>Do not change any other settings</li>
   <li>While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet, by clicking "Review and Create"</li>
+  <img width="491" alt="image" src="https://github.com/user-attachments/assets/b03498b7-1ea0-42ae-9a48-fd74eabb83af" />
+
   <li>Click "Create"</li>
 </ul>
   <li>Create a Linux (Ubuntu) VM</li>
