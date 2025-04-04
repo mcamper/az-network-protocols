@@ -39,15 +39,26 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Step 1: Create our Resources</h2>
 <p>
   <ol>
-  <li>Create a Resource Group</li>
+  <li>Create a Resource Group (RS-NSG)</li>
   <li>Create a Windows 10 Virtual Machine (VM)</li>
     <ul>
-  <li>While creating the VM, select the previously created Resource Group</li>
-  <li>While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet</li>
+  <li>While creating the VM (Windows-VM), select the previously created Resource Group (RS-NSG)</li>
+  <li>For Image, choose Windows 10. For Size, choose at least 2vcpus or DS2sv</li>
+  <li>Enter a username and password (username: labuser  password: Cyberlab123!)</li>
+  <li>Do not change any other settings</li>
+  <li>While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet, by clicking "Review and Create"</li>
+  <li>Click "Create"</li>
 </ul>
   <li>Create a Linux (Ubuntu) VM</li>
     <ul>
-  <li>While creating the VM, select the previously created Resource Group and Vnet</li>
+  <li>While creating the VM (Linux-VM), select the previously created Resource Group and Vnet (RS-NSG)</li>
+  <li>For Image, choose Ubuntu Server 22.04 LTS - x64 Gen2 or 24. For Size, choose at least 2vcpus or DS2sv</li>
+  <li>For Authentication type, choose Password.  Enter a username and password (username: labuser  password: Cyberlab123!) </li>
+  <li>Do not change any other settings</li>
+  <li>Click Next: Disks.  Click: Next: Networking</li>
+  <li>Inside Networking, confirm correct Virtual Network and Subnet that was created in Windows-VM</li>
+  <li>Click "Review and Create"</li>
+  <li>Click "Create"</li>
 </ul>
   <li>Observe your Virtual Network within Network Watcher</li>
 </ol>
