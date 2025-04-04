@@ -115,31 +115,32 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   <li>Open Wireshark and filter for ICMP traffic only</li>
   <li>Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM</li>
     <ul>
-  <li>Observe ping requests and replies within Wirehhark.</li>
+  <li>Observe ping requests and replies within Wireshark.</li>
+      <img width="619" alt="image" src="https://github.com/user-attachments/assets/2b325b19-c8b9-4573-ab5b-240f6d7ac412" />
+      <img width="721" alt="icmp" src="https://github.com/user-attachments/assets/2589b441-96ee-4636-b85c-1f6250198701" />
     </ul>
   <li>From the Windows 10 VM, open command line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in Wireshark.</li>
+    <img width="726" alt="pingprivIP_pinggoogle" src="https://github.com/user-attachments/assets/7584dd0e-7896-42c2-8caa-b42889f02136" />
   <li>Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM </li>
     <ul>
       <li>Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic</li>
-      <li>Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and teh command line ping activity</li>
-      <li>Re-enable the ICMP traffic for the Network Security Group your ubuntu VM is using</li>
+      <img width="934" alt="Screenshot 2025-03-27 051000" src="https://github.com/user-attachments/assets/cce3c915-7c0a-4bc3-80d8-bb85105477c1" />
+      <li>Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the command line ping activity</li>
+      <img width="649" alt="Screenshot 2025-03-27 051733" src="https://github.com/user-attachments/assets/5dbc2fe1-f7b1-45ef-b73b-68af633b5a96" />
+      <li>Re-enable the ICMP traffic for the Network Security Group your Ubuntu VM is using, by deletion</li>
+      <img width="1026" alt="Screenshot 2025-03-27 052450" src="https://github.com/user-attachments/assets/8b987871-917c-4671-9640-d49b3c725a81" />
       <li>Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the command line ping activity (should start working)</li>
+      <img width="677" alt="Screenshot 2025-03-27 052623" src="https://github.com/user-attachments/assets/06540a92-1f7c-440f-b2e9-16d52d7c5a9f" />
       <li>Stop the ping activity, Ctrl + C</li>
     </ul>
 </ol>
 </p>
 <p>
-<img width="319" alt="remote" src="https://github.com/user-attachments/assets/9c5eee0d-1157-4acc-83af-331eba9b5f62" /></p>
 
 <br />
-<img width="721" alt="icmp" src="https://github.com/user-attachments/assets/2589b441-96ee-4636-b85c-1f6250198701" />
+
 
 <br />
-<img width="726" alt="pingprivIP_pinggoogle" src="https://github.com/user-attachments/assets/7584dd0e-7896-42c2-8caa-b42889f02136" />
-<img width="934" alt="Screenshot 2025-03-27 051000" src="https://github.com/user-attachments/assets/cce3c915-7c0a-4bc3-80d8-bb85105477c1" />
-<img width="649" alt="Screenshot 2025-03-27 051733" src="https://github.com/user-attachments/assets/5dbc2fe1-f7b1-45ef-b73b-68af633b5a96" />
-<img width="1026" alt="Screenshot 2025-03-27 052450" src="https://github.com/user-attachments/assets/8b987871-917c-4671-9640-d49b3c725a81" />
-<img width="677" alt="Screenshot 2025-03-27 052623" src="https://github.com/user-attachments/assets/06540a92-1f7c-440f-b2e9-16d52d7c5a9f" />
 
 </p>
 <br />
