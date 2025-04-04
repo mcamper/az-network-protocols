@@ -91,14 +91,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   <li>Observe your Virtual Machines</li>
   <img width="805" alt="image" src="https://github.com/user-attachments/assets/dc353543-b89b-40b3-8572-a139e00014cb" />
 
-
 </ol>
-
 </p>
-<p>
-<img width="952" alt="Screenshot 2025-03-27 045909" src="https://github.com/user-attachments/assets/db66094d-263d-4908-bb9e-5878ecabff0f" />
 
-</p>
 <br />
 
 <p>
@@ -106,6 +101,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
   <ol>
   <li>Use Remote Desktop to connect to your Windows 10 Virtual Machine (VM)</li>
+    <ul>
+      <li>Go to Search inside Windows desktop and search for "Remote Desktop Connection"</li>
+      <li>Open and paste the Windows-VM Public IP Address. You can ignore random username, then click "Connect"</li>
+      <img width="309" alt="image" src="https://github.com/user-attachments/assets/53ea929b-c637-46a2-bcbd-7b342887de59" />
+
+
+    </ul>
   <li>Within your Windows 10 VM, intall Wireshark</li>
   <li>Open Wireshark and filter for ICMP traffic only</li>
   <li>Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM</li>
