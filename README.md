@@ -55,7 +55,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
   <li>Do not change any other settings</li>
   <li>While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet, by clicking "Review and Create"</li>
-  <img width="491" alt="image" src="https://github.com/user-attachments/assets/b03498b7-1ea0-42ae-9a48-fd74eabb83af" />
+ <img width="478" alt="image" src="https://github.com/user-attachments/assets/82519c5e-bb82-4a8d-9c38-6afcdc3400eb" />
+
+  <img width="320" alt="image" src="https://github.com/user-attachments/assets/10add3ab-c9f7-4c21-8961-48de72ea46da" />
+
 
   <li>Click "Create"</li>
 </ul>
