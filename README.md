@@ -105,10 +105,21 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
       <li>Go to Search inside Windows desktop and search for "Remote Desktop Connection"</li>
       <li>Open and paste the Windows-VM Public IP Address. You can ignore random username, then click "Connect"</li>
       <img width="309" alt="image" src="https://github.com/user-attachments/assets/53ea929b-c637-46a2-bcbd-7b342887de59" />
-
-
+      <li>Enter your credentials - User name: labuser  Password: Cyberlab123!. Click "Yes" on Security Certificate prompt </li>
+      <img width="284" alt="image" src="https://github.com/user-attachments/assets/9bea4db6-1e78-4be6-905e-1c1557741752" />
+      <img width="263" alt="image" src="https://github.com/user-attachments/assets/1caa83ec-7d18-429f-b92a-6f69ab0b3dff" />
     </ul>
-  <li>Within your Windows 10 VM, intall Wireshark</li>
+  <li>Within your Windows 10 VM, install Wireshark</li>
+    <img width="205" alt="image" src="https://github.com/user-attachments/assets/3efb2b75-d514-464e-86d9-33d521ffcbf3" />
+    <img width="163" alt="image" src="https://github.com/user-attachments/assets/30595dac-d136-4b2d-a2bc-5530768b6892" />
+    <img width="167" alt="image" src="https://github.com/user-attachments/assets/45b73091-132a-4157-8ea8-4d7ebbb836c5" />
+    <img width="171" alt="image" src="https://github.com/user-attachments/assets/8b9df7ab-5503-4fa6-b070-dd1ce0324d69" />
+    <img width="253" alt="image" src="https://github.com/user-attachments/assets/fa577f60-9c20-4e70-88bc-4754d7442e2c" />
+
+
+
+
+
   <li>Open Wireshark and filter for ICMP traffic only</li>
   <li>Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM</li>
     <ul>
