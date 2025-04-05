@@ -213,7 +213,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p> 
 <p>
 <img width="484" alt="Screenshot 2025-03-27 055356" src="https://github.com/user-attachments/assets/11971178-b129-4c28-a0d2-09418e026010" />
-
 </p>
 <br />
 
@@ -221,7 +220,20 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
   <ol>
     <li>Close your Remote Desktop connection</li>
+      <ul>
+        <img width="442" alt="image" src="https://github.com/user-attachments/assets/358919aa-c25b-4d8f-887e-202756342077" /> <br>
+        <img width="245" alt="image" src="https://github.com/user-attachments/assets/481ef6c7-b07f-4026-a75c-874d25a89e70" />
+      </ul>
+    <li>Delete Windows 10 VM and Ubuntu VM</li>
+      <ul>
+        <img width="812" alt="image" src="https://github.com/user-attachments/assets/ab9fbc0e-9d9b-4b3c-b7ac-a56a11cd86ce" />
+        <img width="366" alt="image" src="https://github.com/user-attachments/assets/166e56c7-f67e-4c29-95ad-68530b36af56" />
+      </ul>
     <li>Delete the Resource Group(s) created at the beginning of this lab</li>
+      <ul>
+        <img width="610" alt="image" src="https://github.com/user-attachments/assets/c11871f8-561b-4030-91e6-ca818b85e9e6" />
+        <img width="366" alt="image" src="https://github.com/user-attachments/assets/166e56c7-f67e-4c29-95ad-68530b36af56" />
+      </ul>
     <li>Verify Resource Group Deletion</li>
   </ol>
 </p>
