@@ -214,8 +214,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 <img width="484" alt="Screenshot 2025-03-27 055356" src="https://github.com/user-attachments/assets/11971178-b129-4c28-a0d2-09418e026010" />
 </p>
-<br />
-
 <h2>Step 7: Lab Cleanup (A MUST!)</h2>
 <p>
   <ol>
@@ -232,12 +230,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
     <li>Delete the Resource Group(s) created at the beginning of this lab</li>
       <ul>
         <img width="610" alt="image" src="https://github.com/user-attachments/assets/c11871f8-561b-4030-91e6-ca818b85e9e6" />
-        <img width="366" alt="image" src="https://github.com/user-attachments/assets/166e56c7-f67e-4c29-95ad-68530b36af56" />
+        <img width="732" alt="image" src="https://github.com/user-attachments/assets/8ebd948c-89dd-4618-9bdc-8d9d360c1c50" />
       </ul>
     <li>Verify Resource Group Deletion</li>
+     <ul>
+        <img width="798" alt="image" src="https://github.com/user-attachments/assets/403d937d-0218-4ed4-b6b8-c42fdab04bf9" />
+        <img width="651" alt="image" src="https://github.com/user-attachments/assets/4cea0183-bd4b-43d1-9702-29ca12279e1f" />
+      </ul>
   </ol>
-</p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br /># az-network-protocols
