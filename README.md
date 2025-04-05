@@ -174,7 +174,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
     <li>Run the .bat file from Powershell</li>
       <ul>
         <li>Navigate to the directory where dhcp_trigger.bat is saved, then run it.</li>
-        <img width="167" alt="image" src="https://github.com/user-attachments/assets/2183ae76-0b6b-4ca6-9925-10f26f6424f9" />
+        <img width="171" alt="image" src="https://github.com/user-attachments/assets/7639d536-227e-417b-89ae-2e9579d70e24" /> <br>
         <img width="430" alt="image" src="https://github.com/user-attachments/assets/664e7733-f389-4cce-835e-c413339382e1" />
         <li>Save on Desktop as a .bat file. Name it: dhcp_trigger.bat. Save as type: All Files</li>
       </ul>
@@ -186,8 +186,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
         <li>Identify Your Network Interface</li>     
         <img width="430" alt="image" src="https://github.com/user-attachments/assets/664e7733-f389-4cce-835e-c413339382e1" />
         <img width="488" alt="image" src="https://github.com/user-attachments/assets/0ee90433-3858-474b-bd98-f640e4ab4dfb" />
-
-
         <li>Renew the DHCP Lease - ipconfig /renew</li>
         <li>Use this Wireshark filter to isolate DHCP traffic: bootp</li>
         <li>Observe the DHCP traffic appearing in Wireshark: DHCP Discover, DHCP Offer, DHCP Request, DHCP ACK</li>
