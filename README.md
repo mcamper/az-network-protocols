@@ -99,9 +99,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   <ol>
   <li>Use Remote Desktop to connect to your Windows 10 Virtual Machine (VM)</li>
     <ul>
-      <li>Go to Search inside Windows desktop and search for "Remote Desktop Connection"</li>
-      <li>Open and paste the Windows-VM Public IP Address. You can ignore random username, then click "Connect"</li>
+      <li>Open and paste the Windows-VM Public IP Address. </li>
       <img width="792" alt="image" src="https://github.com/user-attachments/assets/d6f4a0b8-8093-4089-a369-c6fbf7291630" />
+      <li>Go to Search inside Windows desktop and search for "Remote Desktop Connection" </li>  
+      <li>You can ignore random username, then click "Connect"</li>
       <img width="309" alt="image" src="https://github.com/user-attachments/assets/53ea929b-c637-46a2-bcbd-7b342887de59" />
       <li>Enter your credentials - User name: labuser  Password: Cyberlab123!. Click "Yes" on Security Certificate prompt </li>
       <img width="284" alt="image" src="https://github.com/user-attachments/assets/9bea4db6-1e78-4be6-905e-1c1557741752" />
@@ -110,21 +111,26 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
    <li>Within your Windows 10 VM, install Wireshark. Use all default settings. Then close browser.</li>
       <img width="163" alt="image" src="https://github.com/user-attachments/assets/30595dac-d136-4b2d-a2bc-5530768b6892" />
 
-   <li>Open Wireshark, double click on Ethernet line. FICMPilter for ICMP traffic only</li>
+   <li>Open Wireshark, double click on Ethernet line. Filter for ICMP traffic only</li>
       <img width="442" alt="image" src="https://github.com/user-attachments/assets/d287f0b2-b7a8-4d52-ae07-a844fd7fd6f9" />
+      <img width="476" alt="image" src="https://github.com/user-attachments/assets/a3f3b857-a9df-4f23-be4c-0ebeb5b34cd9" />
 
    <li>Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM</li>
      <ul>
-   <li>Observe ping requests and replies within Wireshark.</li>
       <img width="619" alt="image" src="https://github.com/user-attachments/assets/2b325b19-c8b9-4573-ab5b-240f6d7ac412" />
-      <img width="721" alt="icmp" src="https://github.com/user-attachments/assets/2589b441-96ee-4636-b85c-1f6250198701" />
+       <li>From the Windows 10 VM, open command line or PowerShell </li>
+       <img width="490" alt="image" src="https://github.com/user-attachments/assets/322a72b5-0c4c-4371-aff2-ba4d0484c42a" />
+       <li>Attempt to ping Ubuntu VM and observe the traffic in Wireshark. Observe ping requests and replies within Wireshark.</li>
+      <img width="721" alt="icmp" src="https://github.com/user-attachments/assets/2589b441-96ee-4636-b85c-1f6250198701" />  
       </ul>
-  <li>From the Windows 10 VM, open command line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in Wireshark.</li>
+  <li>Attempt to ping a public website (such as www.google.com) and observe the traffic in Wireshark.</li>
     <img width="726" alt="pingprivIP_pinggoogle" src="https://github.com/user-attachments/assets/7584dd0e-7896-42c2-8caa-b42889f02136" />
   <li>Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM </li>
     <ul>
       <li>Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic</li>
-      <img width="934" alt="Screenshot 2025-03-27 051000" src="https://github.com/user-attachments/assets/cce3c915-7c0a-4bc3-80d8-bb85105477c1" />
+      <img width="970" alt="image" src="https://github.com/user-attachments/assets/0163e326-7182-42ea-9c88-ee43426298c9" />
+      <img width="434" alt="image" src="https://github.com/user-attachments/assets/e62db2f3-176b-40a5-ae6b-e7834becf52e" />
+      <img width="452" alt="image" src="https://github.com/user-attachments/assets/d5553836-f262-4fe5-bf25-812ff7cb719d" />
       <li>Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the command line ping activity</li>
       <img width="649" alt="Screenshot 2025-03-27 051733" src="https://github.com/user-attachments/assets/5dbc2fe1-f7b1-45ef-b73b-68af633b5a96" />
       <li>Re-enable the ICMP traffic for the Network Security Group your Ubuntu VM is using, by deletion</li>
