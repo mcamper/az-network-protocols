@@ -62,7 +62,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   <li>Do not change any other settings</li>
   <li>Click Next: Disks.  Click: Next: Networking</li>
   <img width="298" alt="image" src="https://github.com/user-attachments/assets/f1262388-03c9-4aa7-8420-a93a15ff4b84" />
-
   <li>Inside Networking, confirm correct Virtual Network and Subnet that was created in Windows-VM</li>
   <img width="350" alt="image" src="https://github.com/user-attachments/assets/7dafc92d-f07e-4b94-a4aa-f085d4daf9eb" />
   <li>Click "Review and Create"</li>
