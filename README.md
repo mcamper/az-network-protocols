@@ -36,58 +36,43 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   <ol>
   <li>Create a Resource Group (RS-NSG)</li>
     <img width="461" alt="image" src="https://github.com/user-attachments/assets/3fc126e1-6ca0-4db8-b7ac-2e675101b9b0" />
-
   <li>Create a Windows 10 Virtual Machine (VM)</li>
     <ul>
   <li>While creating the VM (Windows-VM), select the previously created Resource Group (RS-NSG)</li>
     <img width="494" alt="image" src="https://github.com/user-attachments/assets/8d69c74c-be70-4235-83b4-b02ce794eebb" />
-
   <li>For Image, choose Windows 10. For Size, choose at least 2vcpus or DS2sv</li>
   <img width="520" alt="Screenshot 2025-04-04 070032" src="https://github.com/user-attachments/assets/d6a1c2c9-5b2b-4e99-8263-52eadeb0df16" />
-
   <li>Enter a username and password (username: labuser  password: Cyberlab123!)</li>
   <img width="518" alt="Screenshot 2025-04-04 070314" src="https://github.com/user-attachments/assets/15eb8459-e5fc-4321-9f4a-6bcdc01eb775" />
-
   <li>Do not change any other settings</li>
   <li>While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet, by clicking "Review and Create"</li>
  <img width="478" alt="image" src="https://github.com/user-attachments/assets/82519c5e-bb82-4a8d-9c38-6afcdc3400eb" />
-
   <img width="320" alt="image" src="https://github.com/user-attachments/assets/10add3ab-c9f7-4c21-8961-48de72ea46da" />
-
-
   <li>Click "Create"</li>
 </ul>
   <li>Create a Linux (Ubuntu) VM</li>
     <ul>
   <li>While creating the VM (Linux-VM), select the previously created Resource Group (RS-NSG)</li>
       <img width="506" alt="image" src="https://github.com/user-attachments/assets/22d016db-ce67-45a9-bdde-508c11acccf5" />
-
   <li>For Image, choose Ubuntu Server 22.04 LTS - x64 Gen2 or 24. For Size, choose at least 2vcpus or DS2sv</li>
   <img width="497" alt="image" src="https://github.com/user-attachments/assets/ab72af90-922f-4420-8e1a-1cb79660230a" />
-
   <li>For Authentication type, choose Password.  Enter a username and password (username: labuser  password: Cyberlab123!) </li>
   <img width="542" alt="image" src="https://github.com/user-attachments/assets/691404a2-7720-461e-92c6-1dc854d93fc2" />
   <img width="518" alt="image" src="https://github.com/user-attachments/assets/ccb6fbd2-58e6-4810-9004-9cbb9bfab934" />
-
-
   <li>Do not change any other settings</li>
   <li>Click Next: Disks.  Click: Next: Networking</li>
   <img width="298" alt="image" src="https://github.com/user-attachments/assets/f1262388-03c9-4aa7-8420-a93a15ff4b84" />
 
   <li>Inside Networking, confirm correct Virtual Network and Subnet that was created in Windows-VM</li>
   <img width="350" alt="image" src="https://github.com/user-attachments/assets/7dafc92d-f07e-4b94-a4aa-f085d4daf9eb" />
-
-
   <li>Click "Review and Create"</li>
   <img width="288" alt="image" src="https://github.com/user-attachments/assets/4cae5865-bb3a-43af-a9ba-a6680cbc2d56" />
-
   <li>Click "Create"</li>
 </ul>
   <li>Observe your Virtual Machines</li>
   <img width="805" alt="image" src="https://github.com/user-attachments/assets/dc353543-b89b-40b3-8572-a139e00014cb" />
 </ol>
 </p>
-
 <p>
 <h2>Step 2: Observe ICMP Traffic</h2>
 <p>
@@ -105,11 +90,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
      </ul>
    <li>Within your Windows 10 VM, install Wireshark. Use all default settings. Then close browser.</li>
       <img width="163" alt="image" src="https://github.com/user-attachments/assets/30595dac-d136-4b2d-a2bc-5530768b6892" />
-
    <li>Open Wireshark, double click on Ethernet line. Filter for ICMP traffic only</li>
       <img width="442" alt="image" src="https://github.com/user-attachments/assets/d287f0b2-b7a8-4d52-ae07-a844fd7fd6f9" />
       <img width="476" alt="image" src="https://github.com/user-attachments/assets/a3f3b857-a9df-4f23-be4c-0ebeb5b34cd9" />
-
    <li>Retrieve the Private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM</li>
      <ul>
       <img width="619" alt="image" src="https://github.com/user-attachments/assets/2b325b19-c8b9-4573-ab5b-240f6d7ac412" />
@@ -136,14 +119,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
     </ul>
 </ol>
 </p>
-
 <h2>Step 3: Observe SSH Traffic</h2>
 <p>
   <ol>    
-    <li>From your Windows 10 VM, "SSH into" your Ubuntu Virtual Machine (via its private IP address)</li>
+    <li>From your Windows 10 VM, "SSH into" your Ubuntu Virtual Machine (via its Private IP address)</li>
       <ul>
-        <img width="215" alt="image" src="https://github.com/user-attachments/assets/5a84e236-66fc-492b-a234-fb8c636c5da9" />
-        <li>Type commands (username, password, etc.) into the Linux SSH connection. Note when typing password nothing appears. After typing, password press "Enter"</li>
+        <li>Type commands (username: labuser  password: Cyberlab123!, etc.) into the Linux SSH connection. <br>Note when typing password nothing appears. After typing       password, press "Enter"</li>
+          <img width="215" alt="image" src="https://github.com/user-attachments/assets/5a84e236-66fc-492b-a234-fb8c636c5da9" /> <br>
           <img width="332" alt="image" src="https://github.com/user-attachments/assets/3e63b1e2-7f53-49d1-bc2d-c1d576419849" /> <br>
           <img width="338" alt="image" src="https://github.com/user-attachments/assets/3e7828d1-f788-4187-b160-7163537bf480" />
         <li>Back in Wireshark, filter for SSH traffic only. Observe SSH traffic spam in Wireshark</li>
@@ -196,8 +178,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img width="169" alt="Screenshot 2025-03-27 054955" src="https://github.com/user-attachments/assets/abe34408-627b-4d9f-8193-a4a8fb9032be" />
 <img width="667" alt="Screenshot 2025-03-27 055025" src="https://github.com/user-attachments/assets/a8bbd644-6023-4034-b2f8-259111a55c72" />
 </p>
-<br />
-
 </p>
 <h2>Step 6: Observe RDP Traffic</h2>
 <p>
