@@ -94,10 +94,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   <ol>
   <li>Use Remote Desktop to connect to your Windows 10 Virtual Machine (VM)</li>
     <ul>
-      <li>Copy the Windows-VM Public IP Address. </li>
+      <li>Copy the Windows-VM Public IP address. </li>
       <img width="792" alt="image" src="https://github.com/user-attachments/assets/d6f4a0b8-8093-4089-a369-c6fbf7291630" />
       <li>Go to Search inside Windows 10 VM desktop and search for "Remote Desktop Connection" </li>  
-      <li>Paste Windows-VM Public IP Address. You can ignore random username, then click "Connect"</li>
+      <li>Paste Windows-VM Public IP address. You can ignore random username, then click "Connect"</li>
       <img width="309" alt="image" src="https://github.com/user-attachments/assets/53ea929b-c637-46a2-bcbd-7b342887de59" />
       <li>Enter your credentials - User name: labuser  Password: Cyberlab123!. Click "Yes" on Security Certificate prompt </li>
       <img width="284" alt="image" src="https://github.com/user-attachments/assets/9bea4db6-1e78-4be6-905e-1c1557741752" />
@@ -110,7 +110,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
       <img width="442" alt="image" src="https://github.com/user-attachments/assets/d287f0b2-b7a8-4d52-ae07-a844fd7fd6f9" />
       <img width="476" alt="image" src="https://github.com/user-attachments/assets/a3f3b857-a9df-4f23-be4c-0ebeb5b34cd9" />
 
-   <li>Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM</li>
+   <li>Retrieve the Private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM</li>
      <ul>
       <img width="619" alt="image" src="https://github.com/user-attachments/assets/2b325b19-c8b9-4573-ab5b-240f6d7ac412" />
        <li>From the Windows 10 VM, open command line or PowerShell </li>
