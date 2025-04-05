@@ -36,7 +36,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 
-<h2>Step 1: Create our Resources</h2>
+<h2>Step 1: Create our Resources in Microsoft Azure</h2>
 <p>
   <ol>
   <li>Create a Resource Group (RS-NSG)</li>
