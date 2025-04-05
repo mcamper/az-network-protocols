@@ -166,14 +166,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
     <li>From your Windows 10 VM, attempt to issue your VM a new IP address from the command line </li>
       <ul>
         <li>Release the current DHCP Lease - ipconfig /release</li>
+        <img width="281" alt="image" src="https://github.com/user-attachments/assets/e795a999-3b8e-4baf-92d4-ecfbd043b5ea" />
         <li>Renew the DHCP Lease - ipconfig /renew</li>
         <li>Use this Wireshark filter to isolate DHCP traffic: bootp</li>
         <li>Observe the DHCP traffic appearing in Wireshark: DHCP Discover, DHCP Offer, DHCP Request, DHCP ACK</li>
         <li>Back in Wireshark, filter for DHCP traffic only</li>
         <img width="891" alt="image" src="https://github.com/user-attachments/assets/15fc35cc-7d67-4f50-b72d-a22314077bf0" />
         <img width="462" alt="image" src="https://github.com/user-attachments/assets/0b0e0e1c-10f3-4ec7-b87c-1cb36dd376ea" />
-
-
       </ul>
       
   </ol>
