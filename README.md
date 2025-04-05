@@ -130,9 +130,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
       <li>Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic</li>
       <img width="970" alt="image" src="https://github.com/user-attachments/assets/0163e326-7182-42ea-9c88-ee43426298c9" />
       <img width="434" alt="image" src="https://github.com/user-attachments/assets/e62db2f3-176b-40a5-ae6b-e7834becf52e" />
-      <img width="452" alt="image" src="https://github.com/user-attachments/assets/d5553836-f262-4fe5-bf25-812ff7cb719d" />
+      <img width="440" alt="image" src="https://github.com/user-attachments/assets/5ca54dd2-bde0-4a57-8d7b-4725844ad9b0" />
       <li>Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the command line ping activity</li>
-      <img width="649" alt="Screenshot 2025-03-27 051733" src="https://github.com/user-attachments/assets/5dbc2fe1-f7b1-45ef-b73b-68af633b5a96" />
+      <img width="718" alt="image" src="https://github.com/user-attachments/assets/d61fbf6c-5f9e-4d73-b784-f372497e2a90" />
       <li>Re-enable the ICMP traffic for the Network Security Group your Ubuntu VM is using, by deletion</li>
       <img width="1026" alt="Screenshot 2025-03-27 052450" src="https://github.com/user-attachments/assets/8b987871-917c-4671-9640-d49b3c725a81" />
       <li>Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the command line ping activity (should start working)</li>
