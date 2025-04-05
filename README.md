@@ -132,7 +132,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
       <img width="1026" alt="Screenshot 2025-03-27 052450" src="https://github.com/user-attachments/assets/8b987871-917c-4671-9640-d49b3c725a81" />
       <li>Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the command line ping activity (should start working)</li>
       <img width="677" alt="Screenshot 2025-03-27 052623" src="https://github.com/user-attachments/assets/06540a92-1f7c-440f-b2e9-16d52d7c5a9f" />
-      <li>Stop the ping activity, Ctrl + C. Inside Wireshark, stop captures.</li>
+      <li>In Powershell, stop the ping activity: Ctrl + C. Inside Wireshark, stop captures.</li>
     </ul>
 </ol>
 </p>
