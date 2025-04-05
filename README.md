@@ -165,14 +165,19 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
       <img width="278" alt="image" src="https://github.com/user-attachments/assets/3d7ded07-a9d5-4443-9942-eaf423f98dba" />
     <li>From your Windows 10 VM, attempt to issue your VM a new IP address from the command line </li>
       <ul>
-        <li>Release the current DHCP Lease - ipconfig /release</li>
-        <img width="281" alt="image" src="https://github.com/user-attachments/assets/e795a999-3b8e-4baf-92d4-ecfbd043b5ea" />
+        <li>Identify Your Network Interface</li>
+        <img width="167" alt="image" src="https://github.com/user-attachments/assets/81698410-1763-484a-a9f7-912ab79766fd" />
+        <img width="475" alt="image" src="https://github.com/user-attachments/assets/cfe13887-74ac-4216-b960-b7587d8de116" />
+        <img width="475" alt="image" src="https://github.com/user-attachments/assets/8949df2c-c278-49f8-9071-159a66d1c624" />
+        <img width="284" alt="image" src="https://github.com/user-attachments/assets/3a6eb172-75f9-4eb3-8e6c-8f40a119e260" />
+        <img width="430" alt="image" src="https://github.com/user-attachments/assets/664e7733-f389-4cce-835e-c413339382e1" />
+        <img width="488" alt="image" src="https://github.com/user-attachments/assets/0ee90433-3858-474b-bd98-f640e4ab4dfb" />
+
+
         <li>Renew the DHCP Lease - ipconfig /renew</li>
         <li>Use this Wireshark filter to isolate DHCP traffic: bootp</li>
         <li>Observe the DHCP traffic appearing in Wireshark: DHCP Discover, DHCP Offer, DHCP Request, DHCP ACK</li>
         <li>Back in Wireshark, filter for DHCP traffic only</li>
-        <img width="891" alt="image" src="https://github.com/user-attachments/assets/15fc35cc-7d67-4f50-b72d-a22314077bf0" />
-        <img width="462" alt="image" src="https://github.com/user-attachments/assets/0b0e0e1c-10f3-4ec7-b87c-1cb36dd376ea" />
       </ul>
       
   </ol>
