@@ -184,26 +184,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
         <li>In Wireshark, you should now see DHCP packets like: DHCP Discover, DHCP Offer, DHCP Request, DHCP ACK</li>
         <img width="488" alt="image" src="https://github.com/user-attachments/assets/0ee90433-3858-474b-bd98-f640e4ab4dfb" />
       </ul>
-    <li>From the Windows 10 VM, open command line or PowerShell "Administrator" </li>  
-    <li>From your Windows 10 VM, attempt to issue your VM a new IP address from the command line </li>
-      <ul>
-        <li>Identify Your Network Interface</li>     
-        <img width="430" alt="image" src="https://github.com/user-attachments/assets/664e7733-f389-4cce-835e-c413339382e1" />
-        <img width="488" alt="image" src="https://github.com/user-attachments/assets/0ee90433-3858-474b-bd98-f640e4ab4dfb" />
-        <li>Renew the DHCP Lease - ipconfig /renew</li>
-        <li>Use this Wireshark filter to isolate DHCP traffic: bootp</li>
-        <li>Observe the DHCP traffic appearing in Wireshark: DHCP Discover, DHCP Offer, DHCP Request, DHCP ACK</li>
-        <li>Back in Wireshark, filter for DHCP traffic only</li>
-      </ul>
-      
   </ol>
 </p>  
-<p>
-<img width="511" alt="dhcpcopy" src="https://github.com/user-attachments/assets/55d291f9-3fc9-479c-9710-f68649da4764" />
-
-</p>
-<br />
-
 </p>
 <h2>Step 5: Observe DNS Traffic</h2>
 <p>
