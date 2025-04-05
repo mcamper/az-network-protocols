@@ -174,12 +174,16 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
     <li>Run the .bat file from Powershell</li>
       <ul>
         <li>Navigate to the directory where dhcp_trigger.bat is saved, then run it.</li>
-        <img width="171" alt="image" src="https://github.com/user-attachments/assets/7639d536-227e-417b-89ae-2e9579d70e24" /> <br>
-        <img width="430" alt="image" src="https://github.com/user-attachments/assets/664e7733-f389-4cce-835e-c413339382e1" />
-        <li>Save on Desktop as a .bat file. Name it: dhcp_trigger.bat. Save as type: All Files</li>
+        <img width="218" alt="image" src="https://github.com/user-attachments/assets/5df6d568-28b5-4c39-9599-d268c9650761" />
+        <li>Observe the ipconfig /release and /renew commands execute</li>
+        <img width="404" alt="image" src="https://github.com/user-attachments/assets/448b70da-48d0-4c8a-b3a5-e6d986382f74" />
       </ul>
-    <li>From the Windows 10 VM, open command line or PowerShell "Administrator" </li>
-    <li>From the Windows 10 VM, open command line or PowerShell "Administrator" </li>
+    <li>Observe DHCP in Wireshark </li>
+      <ul>
+        <li>In Wireshark, use this filter: bootp (DHCP is an extension of BOOTP)</li>
+        <li>In Wireshark, you should now see DHCP packets like: DHCP Discover, DHCP Offer, DHCP Request, DHCP ACK</li>
+        <img width="488" alt="image" src="https://github.com/user-attachments/assets/0ee90433-3858-474b-bd98-f640e4ab4dfb" />
+      </ul>
     <li>From the Windows 10 VM, open command line or PowerShell "Administrator" </li>  
     <li>From your Windows 10 VM, attempt to issue your VM a new IP address from the command line </li>
       <ul>
