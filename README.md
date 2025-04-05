@@ -141,22 +141,20 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
     </ul>
 </ol>
 </p>
-<p>
 
-<br />
-
-</p>
-<br />
-
-</p>
 <h2>Step 3: Observe SSH Traffic</h2>
 <p>
-  <ol>
-    <li>Back in Wireshark, filter for SSH traffic only</li>
+  <ol>    
     <li>From your Windows 10 VM, "SSH into" your Ubuntu Virtual Machine (via its private IP address)</li>
       <ul>
-        <li>Type commands (username, password, etc.) into the Linux SSH connection and observe SSH traffic spam in Wireshark/li>
+        <img width="215" alt="image" src="https://github.com/user-attachments/assets/5a84e236-66fc-492b-a234-fb8c636c5da9" />
+        <li>Type commands (username, password, etc.) into the Linux SSH connection. Note when typing password nothing appears. After typing, password press "Enter"</li>
+          <img width="332" alt="image" src="https://github.com/user-attachments/assets/3e63b1e2-7f53-49d1-bc2d-c1d576419849" /> <br>
+          <img width="338" alt="image" src="https://github.com/user-attachments/assets/3e7828d1-f788-4187-b160-7163537bf480" />
+        <li>Back in Wireshark, filter for SSH traffic only. Observe SSH traffic spam in Wireshark</li>
+          <img width="478" alt="image" src="https://github.com/user-attachments/assets/9a9fe27d-6c03-44ea-95c3-f0c30b14dbb1" />
         <li>Exit the SSH connecton by typing "exit" and pressing "Enter"</li>
+          <img width="151" alt="image" src="https://github.com/user-attachments/assets/0c7f16b6-4959-4582-9b1f-d31ff206ef67" />
       </ul>
   </ol>
 </p>
