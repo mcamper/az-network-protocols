@@ -158,24 +158,22 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
       </ul>
   </ol>
 </p>
-<p>
-<img width="224" alt="Screenshot 2025-03-27 053108" src="https://github.com/user-attachments/assets/2af8079d-dfe7-491a-b0c9-73a7537b83e8" />
-<img width="338" alt="Screenshot 2025-03-27 053249" src="https://github.com/user-attachments/assets/912aaef2-5bfe-4c6d-87c7-51f7fc3e3929" />
-<img width="802" alt="Screenshot 2025-03-27 053317" src="https://github.com/user-attachments/assets/a1eccd23-e404-4378-ab7b-857d00771a58" />
-<img width="810" alt="Screenshot 2025-03-27 053644" src="https://github.com/user-attachments/assets/f8ebda7c-3be9-4d80-a19e-9acd5027b967" />
-<img width="334" alt="Screenshot 2025-03-27 054230" src="https://github.com/user-attachments/assets/30e6a3c6-c87c-42bb-9c9e-ca2a03407f65" />
-</p>
-<br />
 
-</p>
 <h2>Step 4: Observe DHCP Traffic</h2>
 <p>
-  <ol>
-    <li>Back in Wireshark, filter for DHCP traffic only</li>
+  <ol>  
+    <li>From the Windows 10 VM, open command line or PowerShell "Administrator" </li>
+      <img width="278" alt="image" src="https://github.com/user-attachments/assets/3d7ded07-a9d5-4443-9942-eaf423f98dba" />
     <li>From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)</li>
       <ul>
         <li>Observe the DHCP traffic appearing in Wireshark</li>
+        <li>Back in Wireshark, filter for DHCP traffic only</li>
+        <img width="891" alt="image" src="https://github.com/user-attachments/assets/15fc35cc-7d67-4f50-b72d-a22314077bf0" />
+        <img width="462" alt="image" src="https://github.com/user-attachments/assets/0b0e0e1c-10f3-4ec7-b87c-1cb36dd376ea" />
+
+
       </ul>
+      
   </ol>
 </p>  
 <p>
