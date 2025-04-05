@@ -96,7 +96,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
     <ul>
       <li>Open and paste the Windows-VM Public IP Address. </li>
       <img width="792" alt="image" src="https://github.com/user-attachments/assets/d6f4a0b8-8093-4089-a369-c6fbf7291630" />
-      <li>Go to Search inside Windows desktop and search for "Remote Desktop Connection" </li>  
+      <li>Go to Search inside Windows 10 VM desktop and search for "Remote Desktop Connection" </li>  
       <li>You can ignore random username, then click "Connect"</li>
       <img width="309" alt="image" src="https://github.com/user-attachments/assets/53ea929b-c637-46a2-bcbd-7b342887de59" />
       <li>Enter your credentials - User name: labuser  Password: Cyberlab123!. Click "Yes" on Security Certificate prompt </li>
