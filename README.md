@@ -161,15 +161,29 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Step 4: Observe DHCP Traffic</h2>
 <p>
   <ol>  
-    <li>From the Windows 10 VM, open command line or PowerShell "Administrator" </li>
+    <li>Create and Run a DHCP Trigger Script in Windows 10 VM</li>
+     <ul>
+        <li>Open Notepad and add the following code: ipconfig /release "Enter", ipconfig /renew</li>
+        <img width="167" alt="image" src="https://github.com/user-attachments/assets/81698410-1763-484a-a9f7-912ab79766fd" />
+        <li>Save on Desktop as a .bat file. Name it: dhcp_trigger.bat. Save as type: All Files</li>
+        <img width="475" alt="image" src="https://github.com/user-attachments/assets/cfe13887-74ac-4216-b960-b7587d8de116" />
+      </ul>
+    <li>From the Windows 10 VM, open command line or PowerShell as "Administrator" </li>
       <img width="278" alt="image" src="https://github.com/user-attachments/assets/3d7ded07-a9d5-4443-9942-eaf423f98dba" />
+    <li>Make sure Wireshark is running before you run the script </li>
+    <li>Run the .bat file from Powershell</li>
+      <ul>
+        <li>Navigate to the directory where dhcp_trigger.bat is saved, then run it.</li>
+        <img width="167" alt="image" src="https://github.com/user-attachments/assets/2183ae76-0b6b-4ca6-9925-10f26f6424f9" />
+        <img width="430" alt="image" src="https://github.com/user-attachments/assets/664e7733-f389-4cce-835e-c413339382e1" />
+        <li>Save on Desktop as a .bat file. Name it: dhcp_trigger.bat. Save as type: All Files</li>
+      </ul>
+    <li>From the Windows 10 VM, open command line or PowerShell "Administrator" </li>
+    <li>From the Windows 10 VM, open command line or PowerShell "Administrator" </li>
+    <li>From the Windows 10 VM, open command line or PowerShell "Administrator" </li>  
     <li>From your Windows 10 VM, attempt to issue your VM a new IP address from the command line </li>
       <ul>
-        <li>Identify Your Network Interface</li>
-        <img width="167" alt="image" src="https://github.com/user-attachments/assets/81698410-1763-484a-a9f7-912ab79766fd" />
-        <img width="475" alt="image" src="https://github.com/user-attachments/assets/cfe13887-74ac-4216-b960-b7587d8de116" />
-        <img width="475" alt="image" src="https://github.com/user-attachments/assets/8949df2c-c278-49f8-9071-159a66d1c624" />
-        <img width="284" alt="image" src="https://github.com/user-attachments/assets/3a6eb172-75f9-4eb3-8e6c-8f40a119e260" />
+        <li>Identify Your Network Interface</li>     
         <img width="430" alt="image" src="https://github.com/user-attachments/assets/664e7733-f389-4cce-835e-c413339382e1" />
         <img width="488" alt="image" src="https://github.com/user-attachments/assets/0ee90433-3858-474b-bd98-f640e4ab4dfb" />
 
